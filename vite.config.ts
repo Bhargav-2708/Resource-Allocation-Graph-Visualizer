@@ -4,7 +4,7 @@ import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: "/Resource-Allocation-Graph-Visualizer/",
+  base: "./",
   server: {
     host: "::",
     port: 8080,
